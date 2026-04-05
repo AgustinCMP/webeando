@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    font-family: monospace;
+    color: #00ffff;
+}
+
+ .start {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  z-index: 1;
+  font-size: 200%;
+  width: 14em;
+  margin: -4em 0 0 -7em;
+  text-align: center;
+  cursor: pointer;
+}
+  .start span {
+  color: #4bd5ee;
+}
+.start img {
+  width: 100px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* text */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    letter-spacing: 2px;
+    opacity: 1;
+    transition: opacity 2s ease;
+    text-align: center;
+    white-space: pre-line;
+}
+
+/* pointer */
+.cursor {
+    display: inline-block;
+    width: 10px;
+    background: #00ffff;
+    margin-left: 5px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* stars */
+.star {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: moveStar linear infinite, twinkle 2s infinite;
+}
+
+@keyframes moveStar {
+    from { transform: translateY(0); }
+    to { transform: translateY(100vh); }
+}
+
+@keyframes twinkle {
+    50% { opacity: 0.2; }
+}
+
+/* Nebulah */
+.nebula {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background:
+        radial-gradient(circle at 30% 30%, rgba(0,255,255,0.15), transparent),
+        radial-gradient(circle at 70% 60%, rgba(255,0,255,0.15), transparent),
+        radial-gradient(circle at 50% 80%, rgba(0,0,255,0.2), transparent);
+    animation: moveNebula 60s linear infinite;
+}
+
+
+@keyframes moveNebula {
+    from { transform: translate(0,0); }
+    to { transform: translate(-20%, -20%); }
+}
