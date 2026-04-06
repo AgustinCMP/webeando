@@ -1,8 +1,9 @@
-const message = `anything you wanna write.
-Just write, and then try write again, and
-you know what? I have an idea, keep writing
-and add more writing (and besides writing
-you can go further and improve this creation)`;
+const message = `In this space, you can write anything you want.
+Could be a thought, a presentation card, a link, whatever you want.
+Aside from text, I inserted an audio (cra* audio) just
+to show how you can add elements to the template.
+But you can do more than that...
+This template was created to be improved`;
 
 const textEl = document.getElementById("text");
 const container = document.getElementById("container");
