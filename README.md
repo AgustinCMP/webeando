@@ -7,7 +7,7 @@ Here you’ll find a minimal website template, modest but effective way to prese
 Or anything you want — the purpose is up to you.
 
 This project began years ago. I’ve been trying learning HTML, CSS, and JavaScript over time, but I was stuck, so reecently, with some
-help from AI, I was finally able to move forward and finish it (took me years to get here)
+help from AI, I was finally able to move forward and finish <!-- it (took me years to get here) -->
 
 ## Demo
 [(link a GitHub Pages)](https://agustincmp.github.io/webeando/)
