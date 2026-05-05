@@ -4,6 +4,8 @@ body {
     background: black;
     font-family: monospace;
     color: #00ffff;
+    width: 100%;
+    height: 100%;
 }
 
  .start {
