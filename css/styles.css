@@ -57,17 +57,11 @@ body {
 
 /* stars */
 .star {
-    z-index: 0;
     position: absolute;
     background: white;
     border-radius: 50%;
     opacity: 0.8;
     animation: moveStar linear infinite, twinkle 2s infinite;
-}
-
-.center, .start {
-    z-index: 1;
-    position: relative;
 }
 
 #scene {
@@ -91,10 +85,7 @@ body {
 
 /* Nebulah */
 .nebula {
-    z-index: 0;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 200%;
     height: 200%;
     background:
