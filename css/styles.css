@@ -75,6 +75,7 @@ body {
 
 /* Nebulah */
 .nebula {
+    pointer-events: none;
     position: absolute;
     width: 200%;
     height: 200%;
