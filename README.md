@@ -11,10 +11,10 @@ This template it is part of a series of works in persuit of keep practicing HTML
 [(link a GitHub Pages)](https://agustincmp.github.io/webeando/)
 
 ## What's the deal? As I said before:
-- Minimal design
-- Simple structure
-- Easy to customize
-- Lightweight
+- (Super) Minimal design
+- (Exceedingly) Simple structure
+- (Very) Easy to customize
+- (Ultra) Lightweight
 
 ## Tech
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
