@@ -86,6 +86,7 @@ for (let i = 0; i < starsCount; i++) {
 
     star.style.animationDuration = (Math.random() * 5 + 5) + "s";
 
-    document.body.appendChild(star);
+    const scene = document.getElementById("scene");
+    scene.appendChild(star);
 }
 };
