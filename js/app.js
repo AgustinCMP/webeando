@@ -66,6 +66,8 @@ document.body.addEventListener("click", () => {
 }, { once: true });
 
 // here come the stars
+window.onload = function () {
+
 const starsCount = 150;
 
 for (let i = 0; i < starsCount; i++) {
@@ -84,3 +86,4 @@ for (let i = 0; i < starsCount; i++) {
 
     document.body.appendChild(star);
 }
+};
